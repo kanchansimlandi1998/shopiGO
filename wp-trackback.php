@@ -1,12 +1,5 @@
 <?php
-/**
- * Handle Trackbacks and Pingbacks Sent to WordPress
- *
- * @since 0.71
- *
- * @package WordPress
- * @subpackage Trackbacks
- */
+
 
 if ( empty( $wp ) ) {
 	require_once __DIR__ . '/wp-load.php';
